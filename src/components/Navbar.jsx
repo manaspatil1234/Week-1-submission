@@ -1,0 +1,19 @@
+import React from 'react'
+import { assets } from '../assets/assets/frontend-assets/assets'
+
+const Navbar = () => {
+  return (
+    <>
+    <div className='w-full flex justiy-between items-center font-semibold'>
+        <div className='flex items-center gap-2'>
+            <img className='w-8 bg-black p-2 rounded-2x1 cursor-pointer' src={assets.arrow_left} alt="" />
+            <img className='w-8 bg-black p-2 rounded-2x1 cursor-pointer' src={assets.arrow_right} alt="" />
+        </div>
+        <div className='flex items-center gap-4'>
+        </div>
+    </div>
+    </>
+  )
+}
+
+export default Navbar
